@@ -39,8 +39,8 @@ public class DesignTacoController {
 	@GetMapping
 	public String showDesignForm(Model model) {
 		// las 2 siguientes lineas son para dar el error de ejemplo.
-		int x = 0;
-		float y = 1/x;
+		//int x = 0;
+		//float y = 1/x;
 		populateIngredients(model);
 		return "design";
 	}
