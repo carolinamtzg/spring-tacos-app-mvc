@@ -20,7 +20,6 @@ public class JdbcOrderRepository implements OrderRepository {
 	
 	private SimpleJdbcInsert orderTacoInserter;
 	
-	
 	private ObjectMapper objectMapper;
 	
 
